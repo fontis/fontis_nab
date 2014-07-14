@@ -1,0 +1,6 @@
+# modman module description
+# see https://github.com/colinmollenhour/modman/ for more info
+
+# Fontis NAB Transact
+src/app/code/community/Fontis/Nab  app/code/community/Fontis/Nab
+src/app/etc/modules/Fontis_Nab.xml app/etc/modules/Fontis_Nab.xml
