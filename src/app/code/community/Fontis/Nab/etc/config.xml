@@ -23,23 +23,23 @@
 <config>
     <modules>
         <Fontis_Nab>
-            <version>1.0.0</version>
+            <version>1.0.1</version>
             <depends>
-                <Mage_Payment />
+                <Mage_Payment/>
             </depends>
         </Fontis_Nab>
     </modules>
     <global>
-    	<models>
-    		<nab>
-	    		<class>Fontis_Nab_Model</class>
-	    	</nab>
-    	</models>
-    	<helpers>
-    		<nab>
-    			<class>Fontis_Nab_Helper</class>
-    		</nab>
-    	</helpers>
+        <models>
+            <nab>
+                <class>Fontis_Nab_Model</class>
+            </nab>
+        </models>
+        <helpers>
+            <nab>
+                <class>Fontis_Nab_Helper</class>
+            </nab>
+        </helpers>
         <resources>
             <nab_setup>
                 <setup>
@@ -61,19 +61,19 @@
             </nab_read>
         </resources>
     </global>
-	<default>
+    <default>
         <payment>
             <transact>
-            	<active>0</active>
-            	<model>nab/transact</model>
-            	<username>ABC0001</username>
-            	<password>TestPassword</password>
-            	<title>Credit Card (NAB Transact)</title>
-            	<allowspecific>0</allowspecific>
-            	<debug>0</debug>
-            	<test>1</test>
-            	<cctypes>VI,MC,AE,DI</cctypes>
-            	<payment_action>authorize_capture</payment_action>
+                <active>0</active>
+                <model>nab/transact</model>
+                <username>ABC0001</username>
+                <password>TestPassword</password>
+                <title>Credit Card (NAB Transact)</title>
+                <allowspecific>0</allowspecific>
+                <debug>0</debug>
+                <test>1</test>
+                <cctypes>VI,MC,AE,DI</cctypes>
+                <payment_action>authorize_capture</payment_action>
             </transact>
         </payment>
     </default>
