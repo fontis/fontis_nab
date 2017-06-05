@@ -8,4 +8,5 @@ Further documentation is available from the [Fontis NAB Transact](http://www.fon
 ### Community Contributions
 
 1. [@ben_corlett](https://twitter.com/ben_corlett)
-2. Add your name here
+2. [@dimasdwika](https://twitter.com/dimasdwika)
+3. Add your name here

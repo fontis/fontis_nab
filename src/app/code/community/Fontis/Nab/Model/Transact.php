@@ -36,7 +36,7 @@ class Fontis_Nab_Model_Transact extends Mage_Payment_Model_Method_Cc
 
     // Credit Card URLs
     const CC_URL_LIVE = 'https://transact.nab.com.au/live/xmlapi/payment';
-    const CC_URL_TEST = 'https://transact.nab.com.au/test/xmlapi/payment';
+    const CC_URL_TEST = 'https://demo.transact.nab.com.au/xmlapi/payment';
 
     const STATUS_APPROVED = 'Approved';
 
